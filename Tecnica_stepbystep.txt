@@ -1,0 +1,44 @@
+Técnica stepbystep
+
+Teste de Login em um Site
+Caso de Teste 1: Verificar se o login é bem-sucedido com credenciais válidas
+
+Objetivo: Verificar se um usuário pode fazer login com sucesso usando credenciais válidas.
+
+Passos:
+
+Abra o navegador da web.
+
+Acesse a página de login do site [URL do site de exemplo].
+
+Insira um nome de usuário válido no campo "Nome de usuário".
+
+Insira uma senha válida no campo "Senha".
+
+Clique no botão "Entrar".
+
+Verifique se o usuário é redirecionado para a página inicial após o login.
+
+Verifique se o nome do usuário logado é exibido corretamente na página inicial.
+
+Critério de Sucesso: O teste é bem-sucedido se o usuário puder fazer login com sucesso, for redirecionado para a página inicial e seu nome de usuário for exibido corretamente.
+
+
+Teste de Função de Cálculo Simples
+Caso de Teste 2: Verificar a precisão de uma função de cálculo de soma
+
+Objetivo: Verificar se uma função JavaScript que calcula a soma de dois números funciona corretamente.
+
+Passos:
+
+Declare duas variáveis para armazenar os números a serem somados.
+
+Atribua valores numéricos às variáveis (por exemplo, 5 e 7).
+
+Chame a função de cálculo de soma, passando as duas variáveis como argumentos.
+
+Capture o resultado retornado pela função.
+
+Verifique se o resultado é igual à soma dos dois números (por exemplo, 5 + 7 = 12).
+
+Critério de Sucesso: O teste é bem-sucedido se o resultado retornado pela função de cálculo de soma for igual à soma dos dois números fornecidos como entrada.

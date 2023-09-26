@@ -1,0 +1,21 @@
+Aplicação de Compras Online
+Caso de Teste 1: Adicionar um item ao carrinho de compras
+
+Cenário: Adicionar um item ao carrinho de compras
+
+Dado que o usuário está na página de detalhes do produto
+Quando o usuário clica no botão "Adicionar ao Carrinho"
+Então o item deve ser adicionado ao carrinho de compras
+E o carrinho de compras deve exibir a quantidade de itens como 1
+
+
+
+Caso de Teste 2: Finalizar a compra
+
+Cenário: Finalizar a compra de itens no carrinho
+Dado que o usuário está no carrinho de compras
+E o carrinho de compras contém pelo menos um item
+Quando o usuário clica no botão "Finalizar Compra"
+E o usuário fornece informações de entrega válidas
+Então a compra deve ser processada com sucesso
+E o usuário deve receber um número de pedido
